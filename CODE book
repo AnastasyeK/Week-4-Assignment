@@ -1,0 +1,14 @@
+The following assignment was completed using data from the Samsung Galaxy S smartphone tracking data.
+Description about the data located in this website:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Daa for the project was downloaded from the following link:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+In order to achieve the tidy data set, the follwing steps were taken:
+1) Data was downloaded according to each data type (train or test) considering each variable inependently.
+2) Descriptive names were assigned to the new dta set in order to make the data more easily readable and accessible. 
+3) The data sets loaded were then merged into one large data file using a common variable name: subject.
+4) Means and Standard deviations were then calculated for each easurnment of the merged data set.
+5) A new tidy data set was created where the mean function was applied to each variable of each of the measurnments tested.
+6) Finally, the tidy data set file was converted into a text file. 
